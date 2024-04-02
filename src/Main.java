@@ -42,7 +42,9 @@ public class Main {
     }
         
     System.out.println("\n" + "Total price of groceries:" + Math.round(total));
-   
+    writer.write("\n" + "Total price of groceries:" + Math.round(total));
+    
+    
     reader.close();
 
     writer.flush();
